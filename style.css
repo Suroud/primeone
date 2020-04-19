@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|PT+Sans&display=swap');
+@font-face {
+	font-family: 'Akzidenz Grotesk BQ - Bd Cnd';
+	src: url('fonts/AkzidenzGrotesk-BoldCond.eot');
+	src: local('☺'), url('fonts/AkzidenzGrotesk-BoldCond.woff') format('woff'), url('fonts/AkzidenzGrotesk-BoldCond.ttf') format('truetype'), url('fonts/AkzidenzGrotesk-BoldCond.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+.container__header{
+	width: 869px;
+	margin: 0 auto;
+	padding: 29px 0 0 0;
+}
+.container__header__table{
+	display: flex;
+	justify-content: space-between;
+}
+.header__table__language ul{
+	display: flex;
+}
+.header__table__language li{
+	padding-left: 24px;
+}
+.header__table__language a{
+	font-family: Bebas;
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 25px;
+	text-transform: uppercase;
+	color: #000000;
+}
+.header__table__language li:first-child{
+	padding: 0px;
+}
+.header__title p{
+
+	
+	color: #000000;
+	font-family: Bebas;
+	font-size: 8px;
+	font-weight: 400;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+}
+
+.header__title__online p{
+
+	color: #000000;
+	font-family: "Akzidenz Grotesk BQ - Bd Cnd";
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 25px;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+.container__header__menu{
+	display: flex;
+	justify-content: space-between;
+}
+.header__table__menu ul{
+	display: flex;
+}
+.header__table__menu{
+	padding-top: 28px;
+
+}
+.header__table__menu li{
+padding-left: 45px;
+}
+.header__table__menu li:first-child{
+	padding: 0;
+}
+.header__table__menu a{
+
+	color: #000000;
+	font-family: "Akzidenz Grotesk BQ - Bd Cnd";
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+.header__logo li:first-child{
+	padding:5px 0 20px 0;
+}
+.header__logo li:nth-child(2){
+	padding-top: 20px
+	color: #000000;
+	font-family: Bebas;
+	font-size: 8px;
+	font-weight: 400;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	text-align: center;
+}
+.container_title{
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+}
+.container_title_text{
+	
+	width: 683px;
+	height: 425px;
+	background-color: #000000;
+	position: relative;
+
+
+}
+.title_text_title h1{
+	width: 200px;
+	color: #ffffff;
+	font-family: "Akzidenz Grotesk BQ - Bd Cnd";
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 50px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	position: absolute;
+	top: 82px;
+	left: 62px;
+}
+.title_text_text p{
+	width: 303px;
+	color: #ffffff;
+	font-family: "PT Sans";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 25px;
+	position: absolute;	
+	top: 206px;
+	left: 62px;
+}
+.title_text_link{
+	display: flex;
+}
+.link_buttom {
+	position: absolute;
+	top:300px;
+	left:60px;
+	width: 155px;
+	height: 50px;
+	background-color: #ffffff;
+	text-align: center;
+	line-height: 50px;
+}
+.link_buttom a{
+	text-align: center;
+	color: #000000;
+	font-family: Bebas;
+	font-size: 15px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+.link_text a{
+
+	position: absolute;
+	top:310px;
+	left:229px;
+	color: #fffffe;
+	font-family: Bebas;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 25px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+.container_product {
+	display: flex;
+	justify-content: center;
+	margin-top: 75px;
+}
+.product_Corporatecatering{
+	width: 220px;
+}
+.product_title{
+	margin: 28px 0 33px 0;
+	width: 121px;
+	color: #000000;
+	font-family: "Akzidenz Grotesk BQ - Bd Cnd";
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+}
+.product_text{
+	margin-bottom: 30px;
+	color: #000000;
+	font-family: "PT Sans";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 25px;
+
+}
+.product_button{
+
+	width: 155px;
+	height: 50px;
+	background-color: #000000;
+	text-align: center;
+	line-height: 50px;
+	margin-bottom: 30px;
+}
+.product_button a {
+
+	color: #ffffff;
+	font-family: Bebas;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+.product_link a{
+
+	color: #000000;
+	font-family: Bebas;
+	font-size: 15px;
+	font-weight: 400;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+.container_slide{
+	display: flex;
+	justify-content: center;
+	margin-top: 70px;
+}
+.container_slide_title{
+	width: 684px;
+	height: 150px;
+	background-color: #000000;
+	position: relative;
+}
+.container_slide_title h2{
+	position: absolute;
+	top: 57px;
+	left:250px;
+	color: #ffffff;
+	font-family: "Akzidenz Grotesk BQ - Bd Cnd";
+	font-size: 50px;
+	font-weight: 400;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+.img_advantage {
+	width: 100px;
+	height: 100px;
+	background-color: #000000;
+}
+.container_advantage{
+	padding:50px 0 0 250px;
+
+	height: 350px;
+	background-color: #ebebeb;
+	
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.advantage_flex{
+	display: flex;
+	padding-bottom: 50px;
+}
+.text_advantage{
+	width: 350px;
+	padding-left: 10px;
+}
+.text_advantage h2{
+
+	color: #000000;
+	font-family: "Akzidenz Grotesk BQ - Bd Cnd";
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 25px;
+	text-transform: uppercase;
+
+	letter-spacing: 2.5px;
+}
+.text_advantage p{
+
+	padding-top: 30px;
+	color: #000000;
+	font-family: "PT Sans";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.info_title{
+	padding: 82px 0 0 253px;
+}
+.info_title h2{
+
+	color: #000000;
+	font-family: "Akzidenz Grotesk BQ - Bd Cnd";
+	font-size: 50px;
+	font-weight: 400;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+.info_contact{
+	padding:39px 0 0 248px;
+	display: flex;
+}
+.info_contact_email{
+	margin-left: 164px;
+	background: url(image/icons/email.svg) no-repeat;
+	height: 27px;
+	line-height: 27px;
+	padding-left: 30px;
+}
+.info_contact_tel{
+	display: flex;
+	padding: 28px 0 0 248px;
+	
+}
+.info_contact_adress {
+	
+	background: url(image/icons/map.svg) no-repeat;
+	height: 27px;
+	line-height: 27px;
+	padding-left: 25px;
+
+
+}
+.contact_tel {
+	background: url(image/icons/tel.svg) no-repeat;
+	height: 27px;
+	line-height: 27px;
+	padding-left: 25px;
+}
+.contact_icons{
+	
+	display: flex;
+	margin-left: 300px;
+}
+
+.icons_size{
+	background-size: 24px;
+	width: 24px;
+	height: 24px;
+	padding-left: 50px;
+}
+.facebook{
+	background: url(image/icons/social-046_facebook.png) 0 0 no-repeat;
+}
+.twiter{
+	background: url(image/icons/social-045_twitter.png) 0 0 no-repeat;
+}
+.instagram{
+	background: url(image/icons/social-078_instagram.png) 0 0 no-repeat;
+
+}
+.google{
+	background: url(image/icons/social-080_google_plus.png) 0 0 no-repeat;
+}
+.container_footer{
+	display: flex;
+}
+.container_contactus{
+
+	width: 683px;
+	height: 475px;
+	background-color: #000000;
+}
+.contactus_title{
+	margin:64px 0 25px 60px;
+}
+.contactus_title h2{
+	
+	
+	color: #ffffff;
+	font-family: "Akzidenz Grotesk BQ - Bd Cnd";
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+}
+.input{
+	margin-left: 64px;
+}
+input[type=text] {
+  width: 347px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.bMessage{
+	margin:25px 0 0 64px;
+	width: 150px;
+	height: 50px;
+	border-radius: 5px;
+}
+.footer_info{
+	display: flex;
+	margin-top: 35px;
+
+}
+.footer_terms{
+	padding-left: 248px;
+
+	color: #4d4d4d;
+	font-family: "PT Sans";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 25px;
+	text-decoration: underline;
+}
+.footer_logo{
+	padding-left: 400px;
+}
+
+.logo_footer{
+	width: 50%;
+
+}
