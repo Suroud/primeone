@@ -23,6 +23,10 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
+body{
+	width: 1366px;
+	max-width: 100%;
+}
 .container__header{
 	width: 869px;
 	margin: 0 auto;
@@ -116,6 +120,7 @@ padding-left: 45px;
 	display: flex;
 	justify-content: center;
 	margin-top: 25px;
+	width: 100%;
 }
 .container_title_text{
 	
@@ -300,6 +305,11 @@ padding-left: 45px;
 
 	letter-spacing: 2.5px;
 }
+.container_info{
+	max-width: 100%;
+	
+}
+}
 .text_advantage p{
 
 	padding-top: 30px;
@@ -380,12 +390,15 @@ padding-left: 45px;
 }
 .container_footer{
 	display: flex;
+	justify-content: center;
+	width: 100%;
 }
 .container_contactus{
 
 	width: 683px;
 	height: 475px;
 	background-color: #000000;
+	
 }
 .contactus_title{
 	margin:64px 0 25px 60px;
@@ -422,10 +435,11 @@ input[type=text] {
 .footer_info{
 	display: flex;
 	margin-top: 35px;
+	justify-content: center;
 
 }
 .footer_terms{
-	padding-left: 248px;
+	padding-right: 150px;
 
 	color: #4d4d4d;
 	font-family: "PT Sans";
@@ -435,7 +449,7 @@ input[type=text] {
 	text-decoration: underline;
 }
 .footer_logo{
-	padding-left: 400px;
+	padding-left: 250px;
 }
 
 .logo_footer{
